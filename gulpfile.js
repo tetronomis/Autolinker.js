@@ -28,7 +28,6 @@ const pkg = require( './package.json' ),
       minDistFilename = 'Autolinker.min.js',
       minDistFilePath = distFolder + minDistFilename;
 
-
 gulp.task( 'default', [ 'lint', 'build', 'test' ] );
 gulp.task( 'lint', lintTask );
 gulp.task( 'build', buildTask );
